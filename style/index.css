@@ -107,6 +107,9 @@ img.Group-12 {
   padding: 5px 15px;
   align-items: center;
 }
+.active-nav {
+  color: var(--main) !important;
+}
 .Lorem-ipsum-dolor-si {
   font-family: Inter;
   font-size: 16px;
