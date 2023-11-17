@@ -2,20 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha256-MBffSnbbXwHCuZtgPYiwMQbfE7z+GOZ7fBPCNB06Z98=" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha256-MBffSnbbXwHCuZtgPYiwMQbfE7z+GOZ7fBPCNB06Z98="
+      crossorigin="anonymous"
+    />
 
     <!-- font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link type="text/css" rel="stylesheet" href="style/index.css" />
   </head>
   <body>
     <div class="boom-landingpage1 mt-4">
-
       <nav class="container navbar navbar-expand-lg navbar-light">
-
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <span class="d-flex">
@@ -23,7 +29,15 @@
               <p class="m-0 p-0 logo-text">Boom</p>
             </span>
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
@@ -38,37 +52,83 @@
                 <a class="nav-link" href="#">Roadmap</a>
               </li>
               <li class="nav-item">
+                <a
+                  class="nav-link"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#contactWindow"
+                  >Contact</a
+                >
 
-                <a class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#contactWindow">Contact</a>
-
-                <div class="modal fade" id="contactWindow" tabindex="-1" aria-labelledby="contactWindow" aria-hidden="true">
+                <div
+                  class="modal fade"
+                  id="contactWindow"
+                  tabindex="-1"
+                  aria-labelledby="contactWindow"
+                  aria-hidden="true"
+                >
                   <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Us</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">
+                          Contact Us
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
                       </div>
                       <div class="modal-body text-center">
-
                         <form id="contactForm">
                           <div class="form-outline">
-                            <input type="text" id="formExample1" class="form-control" />
-                            <label class="form-label" for="formExample1">Name</label>
+                            <input
+                              type="text"
+                              id="formExample1"
+                              class="form-control"
+                            />
+                            <label class="form-label" for="formExample1"
+                              >Name</label
+                            >
                           </div>
                           <div class="form-outline">
-                            <input type="email" id="formExample2" class="form-control" />
-                            <label class="form-label" for="formExample2">Email address</label>
+                            <input
+                              type="email"
+                              id="formExample2"
+                              class="form-control"
+                            />
+                            <label class="form-label" for="formExample2"
+                              >Email address</label
+                            >
                           </div>
                           <div class="form-outline">
-                            <textarea class="form-control" id="formExample3" rows="4"></textarea>
-                            <label class="form-label" for="formExample3">Message</label>
+                            <textarea
+                              class="form-control"
+                              id="formExample3"
+                              rows="4"
+                            ></textarea>
+                            <label class="form-label" for="formExample3"
+                              >Message</label
+                            >
                           </div>
                         </form>
-
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-success" form="contactForm" >Send</button>
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                        <button
+                          type="submit"
+                          class="btn btn-success"
+                          form="contactForm"
+                        >
+                          Send
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -116,14 +176,14 @@
                 src="./img/icon/peer-to-peer.png"
                 class="connection p-3 mb-3"
               />
-              <p class="widget-title m-0 pl-3">Peer-To-Peer Connection</p>
+              <p class="widget-title mx-3 my-0">Peer-To-Peer Connection</p>
               <div class="Lorem-ipsum-dolor-si p-3">
                 Lorem ipsum dolor sit amet, consectetur adipi elit, tincidunt
                 dui lacinia purus egestas eget.
               </div>
             </div>
 
-            <img src="./img/peer-to-peer-side.png" style="height: 262px" />
+            <img src="./img/peer-to-peer-side.png" style="height: 300px" />
           </div>
         </div>
         <div class="col px-3 widget">
@@ -145,14 +205,14 @@
       <div class="d-flex flex-wrap gap-3">
         <div class="col-lg-6">
           <div class="row">
-            <div class="col widget mr-3">
+            <div class="col widget mx-3">
               <img src="img/icon/chatting.png" class="connection mt-4" />
               <p class="widget-title">Private ID</p>
               <div class="Lorem-ipsum-dolor-si pb-3">
                 Lorem ipsum sit amet, consectetur adipiscing..
               </div>
             </div>
-            <div class="col widget main-bg white">
+            <div style="margin-right: 14px" class="col widget main-bg white">
               <img src="img/icon/safe.png" class="connection mt-4" />
               <p class="widget-title">Ultra Safe</p>
               <div class="Lorem-ipsum-dolor-si white pb-3">
@@ -161,7 +221,7 @@
             </div>
           </div>
 
-          <div class="row p-3 widget mt-3 cros-plat-hight">
+          <div class="row p-3 widget mt-3 mx-1 cros-plat-hight">
             <div class="d-flex mt-4 gap-2">
               <div class="gray-bg d-flex gap-2">
                 <img src="./img/apple.png" class="connection" />
@@ -184,21 +244,21 @@
         </div>
         <div class="col p-0 widget">
           <div class="text-center">
-            <img src="img/privacy.png" style="width: 100%" />
+            <img src="img/privacy.png" />
           </div>
 
-          <p class="widget-title py-0 my-2 p-3">Full Privacy</p>
+          <p class="widget-title py-0 mt-4 mb-0 p-3">Full Privacy</p>
           <div class="Lorem-ipsum-dolor-si mx-3 my-0 py-2">
             Lorem ipsum sit amet, consectetur adipiscing.
           </div>
         </div>
         <div class="col p-0 widget">
           <div class="connection text-center mt-3">
-            <img src="img/icon/digital-wallet-1.png" class="my-4" />
+            <img src="img/icon/digital-wallet-1.png" class="my-0" />
           </div>
           <div class="text-center">
-            <p class="widget-title mx-0">Crypto Wallet</p>
-            <div class="Lorem-ipsum-dolor-si mx-3 mb-4">
+            <p class="widget-title mt-3 mb-0 mx-0">Crypto Wallet</p>
+            <div class="Lorem-ipsum-dolor-si px-3 mx-3 mb-4">
               Lorem ipsum sit amet, consectetur adipiscing.
             </div>
           </div>
@@ -212,15 +272,18 @@
         </div>
       </div>
 
-      <div class="d-flex gap-4 mt-3 flex-wrap">
-        <div class="col-lg-6 col-sm-12 widget last-row-widget">
+      <div class="d-flex mt-3 flex-wrap">
+        <div
+          style="margin-right: 2px"
+          class="col-lg-6 col-sm-12 widget last-row-widget"
+        >
           <div class="d-flex p-0 mx-0">
             <div class="py-4">
               <img
                 src="./img/icon/blockchain-1.png"
                 class="connection p-3 mb-1"
               />
-              <p class="widget-title m-0 pl-3">Blockchain Chats</p>
+              <p class="widget-title mx-3 my-0">Blockchain Chats</p>
               <div class="Lorem-ipsum-dolor-si px-3 py-1">
                 Lorem ipsum dolor sit amet, consectetur adipi elit, tincidunt
                 dui
@@ -231,7 +294,10 @@
           </div>
         </div>
 
-        <div class="col boom-pro widget white last-row-widget">
+        <div
+          style="margin-left: 14px"
+          class="col boom-pro widget white last-row-widget"
+        >
           <div class="text-center mt-4">
             <img src="img/icon/diamond.png" />
           </div>
@@ -288,7 +354,15 @@
       </p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha256-YMa+wAM6QkVyz999odX7lPRxkoYAan8suedu4k2Zur8=" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha256-YMa+wAM6QkVyz999odX7lPRxkoYAan8suedu4k2Zur8="
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
