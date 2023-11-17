@@ -4,17 +4,41 @@ body {
 :root {
   --main: #825ef6;
 }
-
+.no-border {
+  border: none;
+}
+.no-border:hover {
+  border: none !important;
+  box-shadow: none !important;
+}
 .main-bg {
   background-color: var(--main) !important;
 }
 .white {
   color: white !important;
 }
-.boom-landingpage1 {
-  padding: 49px 0 35px;
+.logo {
+  width: 60px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-image: url("../img/icon/logo.png");
 }
-.Peer-To-Peer-Voice-A {
+.logo-text {
+  width: 59px;
+  height: 24px;
+  margin: 0;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.53px;
+  color: #000;
+}
+.boom-landingpage1 {
+}
+.main-text {
   width: 100%;
 
   font-family: Inter;
@@ -45,7 +69,7 @@ body {
 
 .cros-plat-hight {
   height: auto;
-  min-height: 288px;
+  min-height: 318px;
 }
 img.Group {
   height: 30px;
@@ -65,7 +89,7 @@ img.Group-12 {
   object-fit: contain;
 }
 .navbar {
-  margin: 0 20%;
+  /* margin: 0 20%; */
 }
 .btn:hover {
   background-color: var(--main);
@@ -102,6 +126,7 @@ img.Group-12 {
   margin-bottom: 30px;
   background-size: 100%;
   background-repeat: no-repeat;
+  background-image: url("../img/group-12.png");
 }
 .h-divider {
   margin-top: 150px;
@@ -110,4 +135,25 @@ img.Group-12 {
   padding-top: 20px;
   padding-bottom: 60px;
   border-top: 1px solid rgb(226, 223, 223);
+}
+.center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hereo-img {
+  background-image: url("https://placeimg.com/640/480/nature");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 506px;
+  height: 300px;
+
+  background-image: url("../img/the-app.png");
+}
+@media only screen and (max-width: 770px) {
+  .main-text {
+    font-size: 5vw;
+  }
 }
