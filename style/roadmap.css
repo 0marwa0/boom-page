@@ -1,0 +1,220 @@
+body {
+    font-family: 'Inter', 'sans-serif';
+}
+p {
+    margin: 0;
+}
+.map-title {
+    font-family: 'Inter', 'sans-serif';
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 1.33px;
+    color: #000;
+}
+.roadmap-page-pad {
+    padding: 40px 0 0;
+    background-color: #f2f2f7;
+}
+.small-title {
+    font-size: 18px;
+    letter-spacing: 0.48px;
+    color: #000;
+    padding-bottom: 70px;
+}
+.subtitle-bg {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.navbar-light {
+    padding-bottom: 69px;
+}
+.purple-date {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.37px;
+    color: #825ef6;
+}
+.grey-circle {
+    min-width: 36px;
+    height: 36px;
+    border: solid 1px #fff;
+    border-radius: 50%;
+    background-color: #e0e3ec;
+    z-index: 999;
+    margin-top: 30px;
+    position: absolute;
+}
+.cnt-steps {
+    position: relative;
+    width: 60px;
+    margin-right: 20px;
+}
+.done-green {
+    border-radius: 50%;
+    min-width: 49px;
+    height: 49px;
+    background-color: #2cd182;
+    z-index: 999;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 12px;
+    position: absolute;
+    right: 5px;
+}
+.active-step {
+    border-radius: 50%;
+    z-index: 999;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 9px;
+    position: absolute;
+    right: -3px;
+    width: 66px;
+    height: 66px;
+    background-color: #f5e4c6;
+    position: absolute;
+}
+.main-circle {
+    width: 28px;
+    height: 28px;
+    background-color: #ffaa02;
+    border-radius: 50%;
+    margin: auto;
+}
+.nav-item.active .nav-link {
+    color: #825ef6 !important;
+}
+.nav-item {
+    font-size: 17px;
+}
+.bigger-circle {
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    background-color: #f7d89e;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.absolute-line {
+    width: 9px;
+    height: 82%;
+    position: absolute;
+    left: 13.5px;
+    top: 46%;
+    transform: translateY(-50%);
+    background-color: #e0e3ec;
+}
+.steps-select {
+    position: relative;
+}
+.title-cnt {
+    display: flex;
+    align-items: flex-start;
+}
+.subtitle-small {
+    font-size: 14px;
+    letter-spacing: 0.37px;
+    color: #9d9ca5;
+}
+.all-rights {
+    font-size: 14px;
+    letter-spacing: 0.37px;
+    text-align: center;
+    color: #9d9ca5;
+    padding-bottom: 36px;
+    padding-top: 30px;
+    border-top: 1px solid #dddde8;
+}
+.footer-cols {
+    border-top: 1px solid #dddde8;
+    padding: 40px 0;
+    margin-top: 110px;
+}
+p.title {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0.67px;
+    color: #000;
+}
+p.desc {
+    font-size: 16px;
+    letter-spacing: 0.43px;
+    color: #4e4d58;
+}
+.title-text {
+    padding-bottom: 60px;
+}
+.current p.title {
+    color: #019900;
+}
+.title-small-footer {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.43px;
+    color: #000;
+    padding-bottom: 20px;
+}
+.footer-cols li {
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+
+
+@media(max-width: 1201px) {
+    .absolute-line {
+        left: 5.5px;
+    }
+    .grey-circle {
+        right: 11px;
+    }
+}
+@media(max-width: 991px) {
+    .absolute-line {
+        left: -4.5px;
+    }
+    .footer-cols ul {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 769px) {
+    .absolute-line {
+        left: -13px;
+    }
+}
+@media(max-width: 600px) {
+    .map-title {
+        font-size: 30px;
+    }
+    .steps-select {
+        padding: 0 40px;
+    }
+    .absolute-line {
+        left: 24px;
+        height: 80%;
+    }
+    p.title {
+        font-size: 20px;
+    }
+}
+@media(max-width: 470px) {
+    .absolute-line {
+        left: 20px;
+        height: 79%;
+    }
+    .footer-cols .col.d-flex.justify-content-between {
+        flex-direction: column !important;
+    }
+    .footer-cols ul {
+        margin-bottom: 0;
+    }
+}
+@media(max-width: 400px) {
+    .absolute-line {
+        top: 44%;
+        left: 17px;
+    }
+}
+
