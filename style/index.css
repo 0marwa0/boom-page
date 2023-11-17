@@ -66,10 +66,15 @@ body {
   text-align: center;
   color: #000;
 }
-
+.boom-pro {
+}
 .cros-plat-hight {
   height: auto;
   min-height: 318px;
+}
+.last-row-widget {
+  /* height: auto; */
+  height: 260px;
 }
 img.Group {
   height: 30px;
@@ -110,6 +115,11 @@ img.Group-12 {
 .active-nav {
   color: var(--main) !important;
 }
+.boom-pro {
+  background-size: cover;
+  background-image: url("../img/group-16.png");
+  background-repeat: no-repeat;
+}
 .Lorem-ipsum-dolor-si {
   font-family: Inter;
   font-size: 16px;
@@ -130,6 +140,11 @@ img.Group-12 {
   background-size: 100%;
   background-repeat: no-repeat;
   background-image: url("../img/group-12.png");
+}
+.TermOfServices {
+}
+.text-left {
+  text-align: left;
 }
 .h-divider {
   margin-top: 150px;
