@@ -160,6 +160,7 @@ p.desc {
     padding-bottom: 20px;
 }
 
+
 @media(max-width: 1201px) {
     .absolute-line {
         left: 5.5px;
