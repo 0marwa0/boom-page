@@ -19,6 +19,14 @@ a {
     letter-spacing: 1.33px;
     color: #000;
 }
+.modal-backdrop.show #basicModal{
+    display: block;
+    max-width: 300px;
+}
+.modal-content {
+    min-width: 300px;
+    margin: auto;
+}
 .roadmap-page-pad {
     padding: 40px 0 0;
     background-color: #f2f2f7;
