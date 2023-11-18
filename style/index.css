@@ -242,10 +242,8 @@ img.Group-12 {
   width: 100%;
 }
 .modal-content {
-  min-width: 100%;
   width: 514px !important;
   height: 707px;
-  /* margin: 50px 49px 0 0 !important; */
   padding: 23px !important;
   border-radius: 20px;
   background-color: #ffffff;
