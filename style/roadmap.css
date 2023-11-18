@@ -27,9 +27,25 @@ a {
     min-width: 300px;
     margin: auto;
 }
+.modal-content {
+    border-radius: 20px !important;
+    margin-top: 40px;
+}
 .roadmap-page-pad {
     padding: 40px 0 0;
     background-color: #f2f2f7;
+}
+button.close.btn.my-0.primary-btn.main-border.main-color.full-width {
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.37px;
+    text-align: center;
+    color: #825ef6;
+    border: 1px solid #825ef6;
+    padding: 13px;
 }
 .small-title {
     font-size: 18px;
