@@ -2,161 +2,52 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      integrity="sha256-MBffSnbbXwHCuZtgPYiwMQbfE7z+GOZ7fBPCNB06Z98="
-      crossorigin="anonymous"
-    />
-
-    <!-- font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha256-MBffSnbbXwHCuZtgPYiwMQbfE7z+GOZ7fBPCNB06Z98=" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,100&family=Press+Start+2P&family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link type="text/css" rel="stylesheet" href="style/index.css" />
+    <link type="text/css" rel="stylesheet" href="style/roadmap.css" />
   </head>
   <body>
-    <div class="boom-landingpage1 mt-4">
-      <nav class="container navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
+    <div class="roadmap-page-pad">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <di class="container">
           <a class="navbar-brand" href="#">
-            <span class="d-flex">
-              <div class="logo"></div>
-              <p class="m-0 p-0 logo-text">Boom</p>
-            </span>
+            <img src="img/icon/boom.svg" alt="">
           </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav text-center">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
               <li class="nav-item active">
-                <a class="nav-link active-nav" href="#">Features</a>
+                <a class="nav-link" href="index.html">Features</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Roadmap</a>
+                <a class="nav-link" href="roadmap.html">Roadmap</a>
               </li>
               <li class="nav-item">
-                <a
-                  class="nav-link"
-                  type="button"
-                  data-bs-toggle="modal"
-                  data-bs-target="#contactWindow"
-                  >Contact</a
-                >
-
-                <div
-                  class="modal fade"
-                  id="contactWindow"
-                  tabindex="-1"
-                  aria-labelledby="contactWindow"
-                  aria-hidden="true"
-                >
-                  <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">
-                          Contact Us
-                        </h1>
-                        <button
-                          type="button"
-                          class="btn-close"
-                          data-bs-dismiss="modal"
-                          aria-label="Close"
-                        ></button>
-                      </div>
-                      <div class="modal-body text-center">
-                        <form id="contactForm">
-                          <div class="form-outline">
-                            <input
-                              type="text"
-                              id="formExample1"
-                              class="form-control"
-                            />
-                            <label class="form-label" for="formExample1"
-                              >Name</label
-                            >
-                          </div>
-                          <div class="form-outline">
-                            <input
-                              type="email"
-                              id="formExample2"
-                              class="form-control"
-                            />
-                            <label class="form-label" for="formExample2"
-                              >Email address</label
-                            >
-                          </div>
-                          <div class="form-outline">
-                            <textarea
-                              class="form-control"
-                              id="formExample3"
-                              rows="4"
-                            ></textarea>
-                            <label class="form-label" for="formExample3"
-                              >Message</label
-                            >
-                          </div>
-                        </form>
-                      </div>
-                      <div class="modal-footer">
-                        <button
-                          type="button"
-                          class="btn btn-secondary"
-                          data-bs-dismiss="modal"
-                        >
-                          Close
-                        </button>
-                        <button
-                          type="submit"
-                          class="btn btn-success"
-                          form="contactForm"
-                        >
-                          Send
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
           </div>
-        </div>
+        </di>
       </nav>
-
       <div class="text-center">
         <div class="Combined-Shape">
           <div class="text-center">
             <div class="center">
               <div class="text-center">
-                <img src="./img/group-3.png" class="Group-3" />
+                <img src="img/main-image.png" class="Group-3" />
               </div>
             </div>
-
-            <p class="text-center main-text mt-3 mb-0">
-              Peer-To-Peer Voice App
-            </p>
-            <span class="Video-Text-Privat my-2">
-              Video & Text. Private & Encrypted.
-            </span>
+            <p class="text-center main-text mt-3 mb-0">Peer-To-Peer Voice App</p>
+            <span class="Video-Text-Privat my-2">Video & Text. Private & Encrypted.</span>
             <div>
               <button class="btn mt-4 my-0 primary-btn main-bg white">
-                Take me to Boom App
+                Go to Web App
               </button>
             </div>
           </div>
@@ -166,24 +57,18 @@
         </span>
       </div>
     </div>
-
     <div class="container my-4">
       <div class="d-flex mb-3 flex-wrap gap-3 mt-4">
         <div class="col-lg-6 col-sm-12 p-0 widget">
           <div class="d-flex p-0 mx-0">
-            <div class="py-4">
-              <img
-                src="./img/icon/peer-to-peer.png"
-                class="connection p-3 mb-3"
-              />
-              <p class="widget-title mx-3 my-0">Peer-To-Peer Connection</p>
-              <div class="Lorem-ipsum-dolor-si p-3">
-                Lorem ipsum dolor sit amet, consectetur adipi elit, tincidunt
-                dui lacinia purus egestas eget.
+            <div class="universal-pad-box">
+              <img src="img/icon/peer-to-peer.svg" class="connection"/>
+              <p class="widget-title ultra-safe">Peer-To-Peer Connection</p>
+              <div class="Lorem-ipsum-dolor-si">
+                Decentralized exchange of information and resources between individuals or devices without an intermediate entity.
               </div>
             </div>
-
-            <img src="./img/peer-to-peer-side.png" style="height: 300px" />
+            <img class="corner-img" src="img/icon/corner.png"/>
           </div>
         </div>
         <div class="col px-3 widget">
@@ -205,18 +90,20 @@
       <div class="d-flex flex-wrap gap-3">
         <div class="col-lg-6">
           <div class="row">
-            <div class="col widget mx-3">
-              <img src="img/icon/chatting.png" class="connection mt-4" />
-              <p class="widget-title">Private ID</p>
-              <div class="Lorem-ipsum-dolor-si pb-3">
-                Lorem ipsum sit amet, consectetur adipiscing..
+            <div class="col widget mx-3 safe-widget">
+              <img src="img/icon/chip-id.svg" class="connection mt-4"/>
+              <div class="ultra-safe">
+                  <p class="widget-title">Private ID</p>
+                  <div class="Lorem-ipsum-dolor-si pb-3">
+                    Lorem ipsum sit amet, consectetur adipiscing..
+                  </div>
               </div>
             </div>
-            <div style="margin-right: 14px" class="col widget main-bg white">
-              <img src="img/icon/safe.png" class="connection mt-4" />
-              <p class="widget-title">Ultra Safe</p>
-              <div class="Lorem-ipsum-dolor-si white pb-3">
-                Lorem ipsum sit amet, consectetur adipiscing..
+            <div style="margin-right: 14px" class="col widget main-bg white safe-widget">
+              <img src="img/icon/safe.svg" class="connection mt-4"/>
+              <div class="ultra-safe">
+                <p class="widget-title">Ultra Safe</p>
+                <div class="Lorem-ipsum-dolor-si white pb-3">Lorem ipsum sit amet, consectetur adipiscing..</div>
               </div>
             </div>
           </div>
@@ -242,62 +129,40 @@
             </span>
           </div>
         </div>
-        <div class="col p-0 widget">
-          <div class="text-center">
-            <img src="img/privacy.png" />
-          </div>
-
-          <p class="widget-title py-0 mt-4 mb-0 p-3">Full Privacy</p>
-          <div class="Lorem-ipsum-dolor-si mx-3 my-0 py-2">
-            Lorem ipsum sit amet, consectetur adipiscing.
+        <div class="col widget privacy-ups">
+          <img src="img/privacy-image.png" />
+          <div class="full-privacy">
+            <p class="widget-title">Full Privacy</p>
+            <div class="Lorem-ipsum-dolor-si">Lorem ipsum sit amet, consectetur adipiscing.</div>
           </div>
         </div>
-        <div class="col p-0 widget">
-          <div class="connection text-center mt-3">
-            <img src="img/icon/digital-wallet-1.png" class="my-0" />
-          </div>
-          <div class="text-center">
-            <p class="widget-title mt-3 mb-0 mx-0">Crypto Wallet</p>
-            <div class="Lorem-ipsum-dolor-si px-3 mx-3 mb-4">
-              Lorem ipsum sit amet, consectetur adipiscing.
+        <div class="col widget crypto-wallet">
+          <div class="responsive-wallet">
+            <div class="connection text-center">
+              <img src="img/icon/digital-wallet-1.svg"/>
+            </div>
+            <div class="text-center">
+              <p class="widget-title">Crypto Wallet</p>
+              <div class="Lorem-ipsum-dolor-si">Lorem ipsum sit amet, consectetur adipiscing.</div>
             </div>
           </div>
-          <div class="text-center">
-            <img
-              src="./img/wallet.png"
-              style="width: 100%"
-              class="connection mt-4"
-            />
-          </div>
+          <img src="./img/duo.png" style="width: 100%" class="connection"/>
         </div>
       </div>
 
       <div class="d-flex mt-3 flex-wrap">
-        <div
-          style="margin-right: 2px"
-          class="col-lg-6 col-sm-12 widget last-row-widget"
-        >
+        <div style="margin-right: 2px" class="col-lg-6 col-sm-12 widget last-row-widget">
           <div class="d-flex p-0 mx-0">
-            <div class="py-4">
-              <img
-                src="./img/icon/blockchain-1.png"
-                class="connection p-3 mb-1"
-              />
+            <div class="blockchain-chats">
+              <img src="./img/icon/blockchain.svg" class="connection"/>
               <p class="widget-title mx-3 my-0">Blockchain Chats</p>
-              <div class="Lorem-ipsum-dolor-si px-3 py-1">
-                Lorem ipsum dolor sit amet, consectetur adipi elit, tincidunt
-                dui
-              </div>
+              <div class="Lorem-ipsum-dolor-si px-3 py-1">Lorem ipsum dolor sit amet, consectetur adipi elit, tincidunt dui</div>
             </div>
-
-            <img style="width: 170px" class="p-0 m-0" src="./img/bchain.png" />
+            <img class="shot-image" src="img/shots.png"/>
           </div>
         </div>
 
-        <div
-          style="margin-left: 14px"
-          class="col boom-pro widget white last-row-widget"
-        >
+        <div style="margin-left: 14px" class="col boom-pro widget white last-row-widget">
           <div class="text-center mt-4">
             <img src="img/icon/diamond.png" />
           </div>
@@ -309,60 +174,34 @@
         </div>
       </div>
     </div>
-
-    <footer class="container h-divider">
-      <div class="row my-3">
-        <div class="col-lg-4 col-sm-12 mb-3">
-          <span class="d-flex">
-            <div class="logo"></div>
-            <p class="m-0 p-0 logo-text">Boom</p>
-          </span>
-          <p class="fw-bold my-2" style="font-size: 18px">
-            Peer-To-Peer Connection
-          </p>
-          <span class="Lorem-ipsum-dolor-si">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, etiam
-            tincidunt dui elit, a lacinia purus egestas eget.
-          </span>
+    <footer class="container">
+      <div class="row footer-cols">
+        <div class="col-lg-4 col-sm-12">
+          <img src="img/icon/boom.svg" alt="">
+          <p class="peer-footer">Peer-To-Peer Connection</p>
+          <span class="subtitle-small">Video & Text. Private & Encrypted.</span>
         </div>
-        <div class="col">
-          <p class="my-3">Application</p>
-          <div>
-            <p>MacOS</p>
-            <p>Windows</p>
-            <p>Mobile</p>
-            <p>web</p>
-          </div>
-        </div>
-        <div class="col">
-          <p class="my-2">Social</p>
-          <div>
-            <p>Twitter</p>
-            <p>Discord</p>
-          </div>
-        </div>
-        <div class="col">
-          <p class="my-2">Company</p>
-          <div>
-            <p>Get in Touch</p>
-            <p>Terms of Service</p>
-          </div>
+        <div class="col footer-details">
+          <ul>
+            <li class="title-small-footer">Platforms</li>
+            <li>Web</li>
+            <li>Mobile (Coming Soon)</li>
+          </ul>
+          <ul class="no-title-footer">
+            <li>MacOS (Coming Soon)</li>
+            <li>Windows (Coming Soon)</li>
+          </ul>
+          <ul>
+            <li class="title-small-footer">Company</li>
+            <li><a href="contact.html">Get in Touch</a></li>
+            <li><a href="tos.html">Terms of Service</a></li>
+          </ul>
         </div>
       </div>
-      <p class="h-divider Lorem-ipsum-dolor-si my-4 text-center">
-        All Rights Reserved - Boom © 2023
-      </p>
+      <p class="all-rights">All Rights Reserved - Boom © 2023</p>
     </footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"
-      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-      integrity="sha256-YMa+wAM6QkVyz999odX7lPRxkoYAan8suedu4k2Zur8="
-      crossorigin="anonymous"
-    ></script>
-  </body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha256-YMa+wAM6QkVyz999odX7lPRxkoYAan8suedu4k2Zur8=" crossorigin="anonymous"></script>
+</body>
 </html>

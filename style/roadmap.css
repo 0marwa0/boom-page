@@ -4,6 +4,13 @@ body {
 p {
     margin: 0;
 }
+a {
+    color: #000 !important;
+    text-decoration: unset !important;
+}
+.footer-details a:hover {
+    color: red !important;
+}
 .map-title {
     font-family: 'Inter', 'sans-serif';
     font-size: 50px;
@@ -159,7 +166,73 @@ p.desc {
     list-style-type: none;
     padding-bottom: 20px;
 }
+button.navbar-toggler:focus {
+    box-shadow: unset;
+}
+.crypto-wallet {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 59px;
+}
+.connection.text-center {
+    padding-bottom: 40px;
+}
+.full-privacy {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
+.privacy-ups {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5.5px 0 25px;
+}
+.ultra-safe {
+    padding-top: 40px;
+}
+.safe-widget {
+    padding-left: 25px;
+}
+img.shot-image {
+    max-width: 169px;
+}
+.blockchain-chats {
 
+}
+#navbarNav .nav-link:hover {
+    color: #825ef6 !important;
+}
+.peer-footer {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+    color: #000;
+    padding: 14px 0 12px;
+}
+.no-title-footer {
+    padding-top: 43px;
+}
+.col.footer-details {
+    display: flex;
+    justify-content: space-between;
+}
+.corner-img {
+    max-height: 360px;
+}
+.universal-pad-box {
+    padding: 44px 0 25px 25px;
+}
+.tos .main-text {
+    padding-top: 40px;
+}
+.tos p {
+    font-size: 16px;
+    letter-spacing: 0.43px;
+    color: #4e4d58;
+    padding-bottom: 20px;
+}
 
 @media(max-width: 1201px) {
     .absolute-line {
@@ -168,8 +241,16 @@ p.desc {
     .grey-circle {
         right: 11px;
     }
+    .full-privacy {
+        padding-left: 0;
+        text-align: center;
+    }
 }
 @media(max-width: 991px) {
+    a.nav-link {
+        text-align: center;
+        border-bottom: 1px solid #e8e8e8;
+    }
     .absolute-line {
         left: -4.5px;
     }
@@ -197,6 +278,25 @@ p.desc {
     p.title {
         font-size: 20px;
     }
+    .widget-title {
+        font-size: 25px;
+    }
+    .connection.text-center {
+        padding-bottom: 10px;
+    }
+    .crypto-wallet {
+        padding-top: 35px;
+    }
+    .col.footer-details {
+        flex-direction: column;
+        padding: 20px 15px;
+    }
+    .col.footer-details ul {
+        margin: 0;
+    }
+    .no-title-footer {
+        padding-top: 0;
+    }
 }
 @media(max-width: 470px) {
     .absolute-line {
@@ -208,6 +308,19 @@ p.desc {
     }
     .footer-cols ul {
         margin-bottom: 0;
+    }
+    .widget-title {
+        font-size: 21px;
+    }
+    .Lorem-ipsum-dolor-si {
+        font-size: 15px;
+    }
+    .flex-wrap {
+        flex-wrap: unset !important;
+        flex-direction: column;
+    }
+    .responsive-wallet {
+        padding-bottom: 20px;
     }
 }
 @media(max-width: 400px) {
