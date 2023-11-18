@@ -18,6 +18,12 @@ body {
 .white {
   color: white !important;
 }
+.gap-widgets {
+  gap: 30px;
+}
+.flex-wrap.gap-widgets {
+  margin-top: 30px;
+}
 .logo {
   width: 60px;
   height: 30px;
