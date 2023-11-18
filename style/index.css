@@ -241,12 +241,18 @@ img.Group-12 {
 .input-style-textarea::placeholder {
   width: 100%;
 }
+nav.navbar.navbar-expand-lg.navbar-light {
+  padding: 0;
+}
 .modal-content {
   width: 514px !important;
   height: 707px;
   padding: 23px !important;
   border-radius: 20px;
   background-color: #ffffff;
+}
+.nav-item {
+  font-size: 17px;
 }
 @media only screen and (max-width: 770px) {
   .main-text {
