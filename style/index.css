@@ -69,14 +69,48 @@ body {
 }
 .cros-plat-hight {
   height: auto;
-  min-height: 318px;
+  padding: 44px 12px 32px;
+  margin-top: 30px;
+}
+.col.widget.mx-3.safe-widget {
+  margin-right: 0 !important;
 }
 .last-row-widget {
   height: 260px;
 }
+.privacy-desc {
+  max-width: 200px;
+}
+.col.widget.main-bg.white.safe-widget {
+  min-height: 262px;
+}
+.non-custodial {
+  max-width: 200px;
+  margin: auto;
+}
+.cross-texts {
+  margin-top: 46px;
+}
+span.Lorem-ipsum-dolor-si.lorem-description {
+  max-width: 530px !important;
+  display: flex;
+}
+.priv {
+  max-height: 450px;
+}
 img.Group {
   height: 30px;
   object-fit: contain;
+}
+.boom-pro .widget {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 54px 44px;
+  background-size: cover;
+  background-image: url("../img/icon/bgboompro-min.png");
+  background-repeat: no-repeat;
 }
 img.Group-3 {
   max-width: 700px;
@@ -103,16 +137,12 @@ img.Group-12 {
   background-color: #f2f2f7;
   border-radius: 8px;
   color: #000;
-  padding: 5px 15px;
+  padding: 15px;
   align-items: center;
+  height: 67px;
 }
 .active-nav {
   color: var(--main) !important;
-}
-.boom-pro {
-  background-size: cover;
-  background-image: url("../img/group-16.png");
-  background-repeat: no-repeat;
 }
 .Lorem-ipsum-dolor-si {
   font-size: 16px;

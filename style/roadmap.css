@@ -33,7 +33,7 @@ a {
     background-size: contain;
 }
 .navbar-light {
-    padding-bottom: 69px;
+    padding: 0 0 69px;
 }
 .purple-date {
     font-size: 14px;
@@ -53,8 +53,7 @@ a {
 }
 .cnt-steps {
     position: relative;
-    width: 60px;
-    margin-right: 20px;
+    margin-right: 60px;
 }
 .done-green {
     border-radius: 50%;
@@ -66,7 +65,7 @@ a {
     text-align: center;
     padding-top: 12px;
     position: absolute;
-    right: 5px;
+    left: -6px;
 }
 .active-step {
     border-radius: 50%;
@@ -75,11 +74,10 @@ a {
     text-align: center;
     padding-top: 9px;
     position: absolute;
-    right: -3px;
+    left: -15px;
     width: 66px;
     height: 66px;
     background-color: #f5e4c6;
-    position: absolute;
 }
 .main-circle {
     width: 28px;
@@ -261,47 +259,105 @@ img.shot-image {
     color: #4e4d58;
     padding-bottom: 20px;
 }
+.mac-title {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    color: #000;
+    margin-left: 12px;
+}
 
 @media(max-width: 1201px) {
+    .blockchain-title {
+        padding-top: 5px;
+    }
+    .widget.last-row-widget.mx-2 {
+        margin: 0 !important;
+    }
+    .row.widget.mx-2.cros-plat-hight {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    .widget-title {
+        font-size: 27px;
+    }
     .absolute-line {
         left: 5.5px;
     }
     .grey-circle {
-        right: 11px;
+        left: -8px;
     }
     .full-privacy {
         padding-left: 0;
         text-align: center;
     }
+    .done-green {
+        left: -14px;
+    }
+    .active-step {
+        left: -24px;
+    }
 }
 @media(max-width: 991px) {
+
     a.nav-link {
         text-align: center;
         border-bottom: 1px solid #e8e8e8;
-    }
-    .absolute-line {
-        left: -4.5px;
     }
     .footer-cols ul {
         padding-left: 0;
         margin-top: 20px;
     }
+    .absolute-line {
+        left: 4.5px;
+    }
+    .priv {
+        max-height: 707px;
+    }
 }
 @media (max-width: 769px) {
+    .cnt-steps {
+        margin-right: 55px;
+    }
+    .done-green {
+        right: 3px;
+    }
     .absolute-line {
-        left: -13px;
+        left: 4px;
+        top: 46%;
     }
 }
 @media(max-width: 600px) {
+    .privacy-desc {
+         max-width: unset;
+    }
+    .universal-pad-box {
+        padding: 25px 35px 25px 25px;
+    }
+    .d-flex.flex-wrap.gap-widgets {
+        flex-direction: column;
+    }
     .map-title {
         font-size: 30px;
     }
+    .cnt-steps {
+        margin-right: 50px;
+    }
     .steps-select {
-        padding: 0 40px;
+        padding: 0 20px;
     }
     .absolute-line {
-        left: 24px;
-        height: 80%;
+        left: 46px;
+        height: 83%;
+    }
+    .active-step {
+        right: -8px;
+    }
+    .grey-circle {
+        right: 8px;
+    }
+    .done-green {
+        right: 6px;
     }
     p.title {
         font-size: 20px;
@@ -327,10 +383,7 @@ img.shot-image {
     }
 }
 @media(max-width: 470px) {
-    .absolute-line {
-        left: 20px;
-        height: 79%;
-    }
+
     .footer-cols .col.d-flex.justify-content-between {
         flex-direction: column !important;
     }
@@ -350,11 +403,39 @@ img.shot-image {
     .responsive-wallet {
         padding-bottom: 20px;
     }
+    .absolute-line {
+        left: 25px;
+        height: 82%;
+        top: 44%;
+    }
+    .priv {
+        max-height: 600px;
+    }
+    img.shot-image {
+        display: none;
+    }
+    .blockchain-title {
+        padding-top: 27px;
+    }
+    .safe-widget {
+        padding-left: 15px;
+    }
 }
 @media(max-width: 400px) {
     .absolute-line {
         top: 44%;
-        left: 17px;
+        left: 25px;
+    }
+    .ultra-safe-peer {
+        padding-top: 40px;
+    }
+    .boom-pro .widget {
+        padding: 40px 44px;
+    }
+}
+@media(max-width: 350px) {
+    .ultra-safe-peer {
+        padding-top: 10px;
     }
 }
 
