@@ -41,6 +41,9 @@ a {
     letter-spacing: 0.37px;
     color: #825ef6;
 }
+.bg-0 {
+    background-color: unset;
+}
 .grey-circle {
     min-width: 36px;
     height: 36px;

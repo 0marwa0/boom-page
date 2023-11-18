@@ -189,6 +189,67 @@ img.Group-12 {
 
   background-image: url("../img/the-app.png");
 }
+.main-border {
+  border: 2px solid var(--main);
+}
+.main-color {
+  color: var(--main);
+}
+.contact-btn {
+  padding: 10px !important;
+  margin-bottom: 10px !important;
+}
+.contact-title {
+  width: 100%;
+  margin: 23px auto;
+
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 1.33px;
+  text-align: right;
+  color: #000;
+}
+.full-width {
+  width: 100%;
+}
+
+.contact-icon {
+  margin: 0 169.2px 23px 168px;
+}
+.input-style {
+  height: 50px;
+  width: 100%;
+  padding: 17px;
+  margin: 6px 0 15px 0;
+  border-radius: 8px;
+  border: solid 1px #ebebeb;
+  background-color: #f6f6f6;
+}
+.input-style::placeholder {
+  width: 100% !important;
+}
+
+.input-style-textarea {
+  border-radius: 8px;
+  width: 100%;
+  padding: 17px;
+  border: solid 1px #ebebeb;
+  margin: 6px 0 15px 0;
+  background-color: #f6f6f6;
+}
+.input-style-textarea::placeholder {
+  width: 100%;
+}
+.modal-content {
+  min-width: 100%;
+  width: 514px !important;
+  height: 707px;
+  /* margin: 50px 49px 0 0 !important; */
+  padding: 23px !important;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
 @media only screen and (max-width: 770px) {
   .main-text {
     font-size: 5vw;
