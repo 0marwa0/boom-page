@@ -10,7 +10,7 @@ a {
     text-decoration: unset !important;
 }
 .footer-details a:hover {
-    color: red !important;
+    color: #825ef6 !important;
 }
 .map-title {
     font-family: 'Inter', 'sans-serif';
