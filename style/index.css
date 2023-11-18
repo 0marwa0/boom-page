@@ -241,9 +241,6 @@ img.Group-12 {
 .input-style-textarea::placeholder {
   width: 100%;
 }
-nav.navbar.navbar-expand-lg.navbar-light {
-  padding: 0;
-}
 .modal-content {
   width: 514px !important;
   height: 707px;

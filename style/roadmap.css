@@ -58,13 +58,17 @@ button.close.btn.my-0.primary-btn.main-border.main-color.full-width {
     background-size: contain;
 }
 .navbar-light {
-    padding: 0 0 69px;
+    padding: 0 0 69px !important;
 }
 .purple-date {
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.37px;
     color: #825ef6;
+}
+.tos h2 {
+    margin-bottom: 0.5rem;
+    margin-top: 23px;
 }
 .bg-0 {
     background-color: unset;
@@ -213,7 +217,10 @@ button.navbar-toggler:focus {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 5.5px 0 25px;
+    padding: 5.5px 0 25px !important;
+}
+.priv-cols {
+    padding: 0 !important;
 }
 .ultra-safe {
     padding-top: 40px;
@@ -356,6 +363,13 @@ img.shot-image {
     }
 }
 @media(max-width: 600px) {
+
+    .roadmap-page-pad {
+        padding: 40px 20px 0 20px;
+    }
+    .col {
+        flex-basis: unset !important;
+    }
     .privacy-desc {
          max-width: unset;
     }
