@@ -1,6 +1,7 @@
 body {
-    font-family: 'Inter', 'sans-serif';
     background-color: #f2f2f7 !important;
+    overflow-x: hidden;
+    font-family: 'Inter', 'sans-serif';
 }
 p {
     margin: 0;
@@ -118,11 +119,19 @@ button.close.btn.my-0.primary-btn.main-border.main-color.full-width {
     border-radius: 50%;
     margin: auto;
 }
-.nav-item.active .nav-link {
+.active {
     color: #825ef6 !important;
+}
+.tos h1 {
+    font-size: 31px;
+}
+.tos h2 {
+    font-size: 24px;
 }
 .nav-item {
     font-size: 17px;
+    font-weight: normal;
+    letter-spacing: 0.45px;
 }
 .bigger-circle {
     width: 49px;
@@ -203,7 +212,6 @@ button.navbar-toggler:focus {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-top: 59px;
 }
 .connection.text-center {
     padding-bottom: 40px;
@@ -217,16 +225,24 @@ button.navbar-toggler:focus {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 5.5px 0 25px !important;
+    padding: 10px 0 25px !important;
 }
 .priv-cols {
     padding: 0 !important;
 }
+.col.widget.crypto-wallet {
+    padding: 59px 0 0;
+}
 .ultra-safe {
-    padding-top: 40px;
+    padding-top: 20px;
 }
 .safe-widget {
-    padding-left: 25px;
+    padding: 40px 25px 25px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.gap-widgets.duo-wid {
+    display: flex;
 }
 img.shot-image {
     max-width: 169px;
@@ -250,13 +266,19 @@ img.shot-image {
     justify-content: right;
 }
 .blockchain-title {
-    padding-top: 35px;
+    padding-top: 15px;
 }
 .col.widget.same {
     padding: 40px 25px 25px;
 }
 .bigger-universal {
-    padding: 35px 0 24px 33px;
+    padding: 35px 0 24px 32px;
+}
+.safe-inside {
+    padding: 0 25px 25px 25px;
+}
+.safe-inside-second {
+    padding: 0 0 25px 10px;
 }
 .no-title-footer {
     padding-top: 43px;
@@ -277,10 +299,10 @@ img.shot-image {
     max-height: 264px;
 }
 .ultra-safe-peer {
-    padding-top: 37px;
+    padding-top: 22px;
 }
 .universal-pad-box {
-    padding: 44px 35px 25px 25px;
+    padding: 33px 35px 25px 25px;
 }
 .tos .main-text {
     padding-top: 40px;
@@ -301,6 +323,28 @@ img.shot-image {
     color: #000;
     margin-left: 12px;
 }
+.modal-content {
+    width: 514px !important;
+    padding: 60px !important;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+.been-sent {
+    font-size: 16px;
+    letter-spacing: 0.43px;
+    text-align: center;
+    color: #000;
+    padding-top: 9px;
+    padding-bottom: 37px;
+}
+.close:hover {
+    text-shadow: unset;
+}
+button.btn.contact-btn.primary-btn.main-bg.white.full-width {
+    font-size: 14px;
+    font-weight: 500;
+}
+
 
 @media(max-width: 1201px) {
     .blockchain-title {
@@ -335,6 +379,16 @@ img.shot-image {
 }
 @media(max-width: 991px) {
 
+    img.Group-3 {
+        padding: 0 20px;
+    }
+    .privacy-desc {
+        max-width: unset;
+        padding: 0 10px;
+    }
+    .col.widget.crypto-wallet {
+        padding: 20px 0 0;
+    }
     a.nav-link {
         text-align: center;
         border-bottom: 1px solid #e8e8e8;
@@ -361,11 +415,41 @@ img.shot-image {
         left: 4px;
         top: 46%;
     }
+    .universal-pad-box {
+        padding: 30px 35px 25px 25px;
+    }
 }
 @media(max-width: 600px) {
 
-    .roadmap-page-pad {
-        padding: 40px 20px 0 20px;
+    .modal-content {
+        width: auto !important;
+        margin: 20% 16px 0;
+        padding: 20px !important;
+    }
+    .tos .main-text {
+        font-size: 28px !important;
+    }
+    .tos h1 {
+        font-size: 22px;
+    }
+    .index-landing p {
+        margin-bottom: 5px !important;
+    }
+    .bigger-universal {
+        padding: 25px;
+    }
+    .cros-plat-hight {
+        padding: 34px 22px 32px 25px;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light {
+        padding-right: 16px !important;
+        padding-left: 16px !important;
+    }
+    .gap-widgets.duo-wid {
+        flex-direction: column;
+    }
+    .responsive-wallet {
+        margin-bottom: 20px;
     }
     .col {
         flex-basis: unset !important;
@@ -389,7 +473,7 @@ img.shot-image {
         padding: 0 20px;
     }
     .absolute-line {
-        left: 46px;
+        left: 26px;
         height: 83%;
     }
     .active-step {
@@ -447,8 +531,8 @@ img.shot-image {
     }
     .absolute-line {
         left: 25px;
-        height: 82%;
-        top: 44%;
+        height: 84%;
+        top: 46%;
     }
     .priv {
         max-height: 600px;
@@ -459,25 +543,29 @@ img.shot-image {
     .blockchain-title {
         padding-top: 27px;
     }
-    .safe-widget {
-        padding-left: 15px;
-    }
 }
 @media(max-width: 400px) {
+
     .absolute-line {
-        top: 44%;
         left: 25px;
+        height: 82%;
     }
     .ultra-safe-peer {
-        padding-top: 40px;
+        padding-top: 24px;
     }
     .boom-pro .widget {
-        padding: 40px 44px;
+        padding: 40px 15px;
     }
 }
 @media(max-width: 350px) {
     .ultra-safe-peer {
         padding-top: 10px;
+    }
+    img.connection {
+        width: 38px;
+    }
+    .absolute-line {
+        top: 45%;
     }
 }
 

@@ -1,7 +1,3 @@
-body {
-  background-color: #f2f2f7;
-  font-family: 'Inter', 'sans-serif';
-}
 :root {
   --main: #825ef6;
 }
@@ -69,7 +65,7 @@ body {
 }
 .cros-plat-hight {
   height: auto;
-  padding: 44px 12px 32px;
+  padding: 44px 12px 32px 32px;
   margin-top: 30px;
 }
 .col.widget.mx-3.safe-widget {
@@ -124,9 +120,9 @@ img.Group-12 {
   margin: 71px 0 80.6px;
   object-fit: contain;
 }
-.btn:hover {
-  background-color: var(--main);
-  color: white;
+.modal-content .btn:hover {
+  background-color: #825ef6;
+  color: white !important;
 }
 .widget {
   background-color: white;
@@ -241,18 +237,5 @@ img.Group-12 {
 .input-style-textarea::placeholder {
   width: 100%;
 }
-.modal-content {
-  width: 514px !important;
-  height: 707px;
-  padding: 23px !important;
-  border-radius: 20px;
-  background-color: #ffffff;
-}
-.nav-item {
-  font-size: 17px;
-}
-@media only screen and (max-width: 770px) {
-  .main-text {
-    font-size: 5vw;
-  }
-}
+
+
