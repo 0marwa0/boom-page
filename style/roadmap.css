@@ -10,6 +10,9 @@ a {
     color: #000 !important;
     text-decoration: unset !important;
 }
+body .navbar-light {
+    padding: 40px 0 109px;
+}
 .footer-details a:hover {
     color: #825ef6 !important;
 }
@@ -33,7 +36,6 @@ a {
     margin-top: 40px;
 }
 .roadmap-page-pad {
-    padding: 40px 0 0;
     background-color: #f2f2f7;
 }
 button.close.btn.my-0.primary-btn.main-border.main-color.full-width {
@@ -57,9 +59,6 @@ button.close.btn.my-0.primary-btn.main-border.main-color.full-width {
 .subtitle-bg {
     background-repeat: no-repeat;
     background-size: contain;
-}
-.navbar-light {
-    padding: 0 0 69px !important;
 }
 .purple-date {
     font-size: 14px;
