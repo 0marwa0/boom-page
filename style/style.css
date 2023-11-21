@@ -57,6 +57,12 @@ a {
 .nav-item.active .nav-link, #navbarNav .nav-link:hover {
     color: #825ef6 !important;
 }
+a.nav-link {
+    font-size: 17px;
+    letter-spacing: 0.45px;
+    color: #000;
+    font-family: 'Inter', 'sans-serif' !important;
+}
 .main-text {
     font-size: 50px;
     font-weight: bold;
@@ -226,6 +232,17 @@ img.Group-12 {
     letter-spacing: 1.33px;
     text-align: right;
     color: red;
+}
+#sentModal .contact-title {
+    width: 100%;
+    margin: 23px auto 10px;
+    font-size: 25px;
+}
+#sentModal {
+    padding-top: 0;
+}
+#senModal .modal-content {
+    padding: 57px !important;
 }
 .full-width {
     width: 100%;
