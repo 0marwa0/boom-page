@@ -207,7 +207,7 @@ img.Group-12 {
 }
 .contact-btn {
     padding: 10px !important;
-    margin-bottom: 10px !important;
+    margin-bottom: 10px;
 }
 .contact-title {
     width: 100%;
@@ -668,6 +668,9 @@ button.btn.contact-btn.primary-btn.main-bg.white.full-width {
 }
 @media(max-width: 600px) {
 
+    p.mac-title.mb-0 {
+        margin-bottom: 0 !important;
+    }
     .modal-content {
         width: auto !important;
         margin: 20% 16px 0;
@@ -680,7 +683,7 @@ button.btn.contact-btn.primary-btn.main-bg.white.full-width {
         font-size: 22px;
     }
     .index-landing p {
-        margin-bottom: 5px !important;
+        margin-bottom: 15px !important;
     }
     .bigger-universal {
         padding: 25px;
@@ -791,8 +794,28 @@ button.btn.contact-btn.primary-btn.main-bg.white.full-width {
         padding-top: 27px;
     }
 }
+@media(max-width: 440px) {
+    .absolute-line {
+        left: 25px;
+        height: 81%;
+        top: 45%;
+    }
+    .main-text {
+        font-size: 46px;
+        padding-top: 46px;
+    }
+}
 @media(max-width: 400px) {
 
+    .widget.cros-plat-hight .d-flex.gap-2 {
+        flex-direction: column;
+    }
+    .gray-bg {
+        justify-content: center;
+    }
+    .index-landing p {
+        margin-bottom: 5px !important;
+    }
     .absolute-line {
         left: 25px;
         height: 82%;
