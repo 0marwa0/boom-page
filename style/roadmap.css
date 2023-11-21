@@ -10,6 +10,9 @@ a {
     color: #000 !important;
     text-decoration: unset !important;
 }
+.been-sent {
+    font-family: 'Inter', 'sans-serif';
+}
 body .navbar-light {
     padding: 40px 0 109px;
 }
